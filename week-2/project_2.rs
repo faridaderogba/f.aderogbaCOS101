@@ -1,15 +1,15 @@
 fn main() {
-	let Toshiba: = 450000.00
-	let Mac: f64 = 1500000.00
-	let HP: f64 = 750000.00
-	let Dell: f64 = 2850000.00
-	let Acer: f64 = 250000.00
+	let toshiba: f32 = 450_000.0;
+	let mac: f32 = 1_500_000.0;
+	let hp: f32 = 750_000.0;
+	let dell: f32 = 2_850_000.0;
+	let acer: f32 = 250_000.0;
 
 	// Sum
-	let S = (Toshiba + Mac + HP + Dell + Acer);
+	let S = toshiba + mac + hp + dell + acer;
 	println!("Sum is {}", S);
 
 	// Average 
-	let A = S / 5;
-	println!("Average is {}", A );
+	let a = S / 5.0;
+	println!("Average is {}", a);
 }

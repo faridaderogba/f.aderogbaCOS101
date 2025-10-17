@@ -1,10 +1,10 @@
 fn main() {
-    let p = 510000.0; 
-    let r = 5.0;      
-    let n = 3.0;      
+    let p = 510_000; 
+    let r = 5;      
+    let n = 3;      
 
     // Value of the TV after 3 years
-    let a = p * (1.0 - r / 100.0).powf(n);
+    let a = p * (1 - r / 100)^(n);
 
     println!("Value of the TV after 3 years = {:.2}", a);
 

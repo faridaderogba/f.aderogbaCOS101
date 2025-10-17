@@ -1,10 +1,10 @@
 fn main() {
-    let p = 520000000.0; 
-    let r = 10.0;        
-    let n = 5.0;         
+    let p = 520_000_000; 
+    let r = 10;        
+    let n = 5;         
 
     // Amount
-    let a = p * (1.0 + r / 100.0).powf(n);
+    let a = p * (1 + r / 100)^(n);
 
     // Compound Interest
     let ci = a - p;
