@@ -1,5 +1,5 @@
 fn main() {
-    let p = 510_000; 
+    let p = 510_000s; 
     let r = 5;      
     let n = 3;      
 
