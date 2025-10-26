@@ -1,4 +1,4 @@
-// Rust program to output name and age
+0...,,ma// Rust program to output name and age
 
 use std::io;
 fn main () {
