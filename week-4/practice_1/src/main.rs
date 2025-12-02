@@ -1,4 +1,4 @@
-0...,,ma// Rust program to output name and age
+// Rust program to output name and age
 
 use std::io;
 fn main () {
@@ -10,7 +10,7 @@ fn main () {
         io::stdin()
         .read_line(&mut name)
         .expect("Failed to read input");
-    println!("YOur name is: {}", name);
+    println!("Your name is: {}", name);
 
     // input age
     println!("\nEnter your age.");
